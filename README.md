@@ -16,18 +16,16 @@ python login.py [-h] [-u USER] [-p PW] [-l] [-o FILE]
 
 Auto-login into IITG web interface
 
+```
+
 optional arguments:
-
-  -h, --help            		    show this help message and exit
-  
+  -h, --help            		                Show this help message and exit
   -u USER, --user USER, --username USER     Provide signin username
+  -p PW, --pass PW, --password PW	          Provide signin password
+  -l, --log, --logging  		                Enable logs
+  -o FILE, --out FILE, --outfile FILE	      Specify outfile for logs
   
-  -p PW, --pass PW, --password PW	    Provide signin password
-  
-  -l, --log, --logging  		    Enable logs
-  
-  -o FILE, --out FILE, --outfile FILE	    Specify outfile for logs
-
+```
 If any of the username or password are missing in arguments, those will be asked on runtime.
 
 
